@@ -26,7 +26,7 @@ const FAQ = () => {
                 <p className="text-md text-primary font-bold text-black">Have some questions?</p>
                 <h2 className="font-black text-black text-6xl pt-6">Our FAQ'S</h2>
                 <div className="mx-auto max-w-4xl container flex flex-col space-y-2 pt-12">
-                    <Question question="What is the total supply of Girly Girl's?" answer="There will be a total of 10,000 exclusively generated Girly Girl's."/>
+                    <Question question="What is the total supply of Girly Girls?" answer="There will be a total of 10,000 exclusively generated Girly Girls."/>
                     <div className="w-full border-b" />
                     <Question question="What is the cost to mint a Girly Girl?" answer="It will cost 0.01 ETH to mint an ape + gas fees." />
                     <div className="w-full border-b" />
