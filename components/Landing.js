@@ -88,7 +88,7 @@ const Landing = ({totalMinted}) => {
             <div className="min-h-screen w-full mx-auto container grid grid-cols-1 lg:grid-cols-2">
                 <div className="min-h-screen pt-40 pb-16 px-20 lg:pt-30 lg:pb-32 flex flex-col items-center lg:items-start justify-center text-center lg:text-left">
                     <motion.p className="text-white font-medium leading-loose text-lg" initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.1, type:"spring"}}>{totalMinted} / 10,000</motion.p>
-                    <motion.h2 className="text-7xl sm:text-8xl text-white font-black pt-8 pb-12" initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.15, type:"spring"}}>Girly Girl's</motion.h2>
+                    <motion.h2 className="text-7xl sm:text-8xl text-white font-black pt-8 pb-12" initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.15, type:"spring"}}>Girly Girls</motion.h2>
                     <motion.p className="md:w-96 text-sm text-white leading-loose" initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.2, type:"spring"}}>We're bringing the community to the metaverse where it will be a safe place to meet people of diverse backgrounds.</motion.p>
                     <motion.div className="flex flex-row items-center justify-center space-x-5 pt-12" initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.25, type:"spring"}}>
                         <Twitter link="https://twitter.com/GirlyGirlsNFT" />
