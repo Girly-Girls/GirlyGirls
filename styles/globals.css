@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/circular-book.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/circular-medium.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url('../fonts/Americane-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/Americane-Black.woff2") format("woff2");
+    font-weight: 900;
+}
+
+body, html {
+    font-family: "Circular";
+    scroll-behavior: smooth;
+}
+
+input {
+    outline: none;
+    appearance: none;
+}
+
+::selection {
+    color: #ffffff;
+    background: #000000;
+}
+
+.custom-bg {
+    background-image: url("../public/images/bg.png");
+    background-size: cover;
+}
