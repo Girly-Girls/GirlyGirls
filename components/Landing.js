@@ -108,7 +108,7 @@ const Landing = ({totalMinted}) => {
                             </div>
                             <div>
                                 <p className="pb-3 text-sm font-medium text-neutral-500">Total Price</p>
-                                <input type="number" className={`border-2 rounded-xl p-4 w-32 md:w-36 text-center ${totalMinted >= 500 ? "" : "pl-8"}`} disabled max={10} placeholder={totalMinted >= 500 ? "    " + (quantity * 0.01).toFixed(2) + " Ξ" : 0 + " Ξ"}/>
+                                <input type="number" className={`border-2 rounded-xl p-4 w-32 md:w-36 text-center ${totalMinted >= 1000 ? "" : "pl-8"}`} disabled max={10} placeholder={totalMinted >= 500 ? "    " + (quantity * 0.01).toFixed(2) + " Ξ" : 0 + " Ξ"}/>
                             </div>
                         </div>
                         {
