@@ -66,7 +66,7 @@ export const connectWallet = async () => {
     let contractValue = web3.utils.toWei((quantity * 0.01).toString(), "ether");
 
     function getGasAmount(quantity) {
-      switch(quantity) {
+      switch(parseInt(quantity)) {
         case 10:
           return 480000;
         case 9:
