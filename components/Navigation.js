@@ -54,9 +54,7 @@ const Navigation = ({toggleMenu}) => {
                 <a href="/#about">
                     <p className={`text-sm duration-300 ${top ? "text-white" : "text-black"}`}>About</p>
                 </a>
-                <a href="/roadmap">
-                    <p className={`text-sm duration-300 ${top ? "text-white" : "text-black"}`}>Roadmap</p>
-                </a>
+        
                 <a href="/#team">
                     <p className={`text-sm duration-300 ${top ? "text-white" : "text-black"}`}>Team</p>
                 </a>
