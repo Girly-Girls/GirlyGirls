@@ -91,7 +91,7 @@ export const connectWallet = async () => {
     };
 
     function getMintAmount() {
-      if (totalMinted < 1000) {
+      if (totalMinted < 5000) {
         return parseInt(0).toString(16);
       };
       return parseInt(contractValue).toString(16);
